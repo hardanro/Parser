@@ -92,7 +92,7 @@ class HtmlElements
      */
     public function addChild($element)
     {
-        echo get_class($element);
+        
         $this->elements[] = $element;
     }
 
