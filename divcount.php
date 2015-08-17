@@ -107,7 +107,7 @@ class HtmlElements
     }
 }
 try {
-    $html = file_get_contents('http://www.bbc.com/');
+    
     $dom = new HtmlParser('http://www.bbc.com/');
     $elements = $dom->getElements('div');
     echo $elements->count();
