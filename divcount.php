@@ -2,7 +2,6 @@
 
 class HtmlBuilder
 {
-
     /**
      * Load the code based on the type (url,string or file). If new source types are added, it's changed only here
      *
